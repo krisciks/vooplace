@@ -1,0 +1,78 @@
+body{
+    background: #666379;
+    background: linear-gradient(90deg,rgba(102, 99, 121, 1) 0%, rgba(81, 75, 97, 1) 50%, rgba(104, 98, 121, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 98.8vw;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.svarigais {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 140px 169px 169px 169px 169px;
+    gap: 30px;
+  }
+
+.augsa{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    background-color: rgba(44, 38, 56);
+    box-shadow: -7px 8px 31px -1px rgba(0,0,0,0.73);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kreisa{
+    grid-row: 2/6;
+    grid-column: 1/2;
+    background-color: rgba(44, 38, 56);
+    box-shadow: -7px 8px 31px -1px rgba(0,0,0,0.73);
+    color: white;
+    border-radius: 8px;
+}
+
+.laba{
+    grid-row: 2/6;
+    grid-column: 5/6;
+    background-color: rgba(44, 38, 56);
+    box-shadow: -7px 8px 31px -1px rgba(0,0,0,0.73);
+    color: white;
+    border-radius: 8px;
+}
+
+.vidus{
+    grid-row: 2/6;
+    grid-column: 2/5;
+    background-color: rgba(44, 38, 56);
+    box-shadow: -7px 8px 31px -1px rgba(0,0,0,0.73);
+    color: white;
+    border-radius: 8px;
+}
+
+.vlogo{
+    padding-top: 18px;
+    padding-left: 30px;
+    width: 100px;
+    height: 100px;
+    opacity: 60%;
+}
+
+.augsa_k{
+    display: flex;
+    flex-direction: row;
+}
+
+.vraksts{
+color: rgb(255, 255, 255);
+font-size: 50px;
+font-weight: 600;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+line-height: 32px;
+margin-left: 20px;
+}

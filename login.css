@@ -47,11 +47,11 @@ body{
 .lgrid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 120px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 150px;
 }
 .logs1{
     margin: 0px;
-    margin-left: 225px;
+    margin-left: 310px;
 }
 .tekst1{
     font-size: 40px;
@@ -84,29 +84,9 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.name{
-    margin-left: 165px;
-    margin-top: 20px;
-    height: 30px;
-    width: 200px;
-    font-size: 16px;
-    border-radius: 8px;
-    background-color: rgb(80, 71, 97);
-    border-color:rgb(68, 56, 90);
-    box-shadow: 1px 1px 54px 3px rgba(0,0,0,0.73);
-}
-.surname{
-    margin-left: 15px;
-    height: 30px;
-    width: 200px;
-    font-size: 16px;
-    border-radius: 8px;
-    background-color: rgb(80, 71, 97);
-    border-color:rgb(68, 56, 90);
-    box-shadow: 1px 1px 54px 3px rgba(0,0,0,0.73);
-}
+.logs4{
 
-
+}
 .mail{
     margin-left: 165px;
     height: 30px;
@@ -120,6 +100,9 @@ body{
 }
 
 
+.logs5{
+
+}
 .pass{
     margin-left: 165px;
     height: 30px;
@@ -132,18 +115,10 @@ body{
     box-shadow: 1px 1px 54px 3px rgba(0,0,0,0.73);
 }
 
-.pass2{
-    margin-left: 165px;
-    height: 30px;
-    margin-top: 25px;
-    width: 430px;
-    font-size: 16px;
-    border-radius: 8px;
-    background-color: rgb(80, 71, 97);
-    border-color:rgb(68, 56, 90);
-    box-shadow: 1px 1px 54px 3px rgba(0,0,0,0.73);
-}
 
+.logs7{
+
+}
 .reg{
     margin-left: 165px;
     height: 50px;
@@ -157,4 +132,3 @@ body{
     opacity: 80%;
     color: white;
 }
-
